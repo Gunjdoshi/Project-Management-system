@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(236, 223, 204); /* Light background color for entire page */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container, .register-container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 225px;
+  padding: 20px;
+  border: 1px solid rgb(60, 61, 55); /* Medium border color */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(236, 223, 204); /* Light background color */
+}
+
+h2 {
+  text-align: center;
+  color: rgb(30, 32, 30); /* Dark text color */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  color: rgb(30, 32, 30); /* Dark text color */
+}
+
+input[type="text"], input[type="password"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid rgb(60, 61, 55); /* Medium border color */
+  border-radius: 4px;
+}
+
+.small-input {
+  width: 200px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(105, 117, 101); /* Greenish button color */
+  color: rgb(236, 223, 204); /* Light text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(60, 61, 55); /* Medium hover color */
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a {
+  color: rgb(105, 117, 101); /* Greenish link color */
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  color: rgb(30, 32, 30); /* Dark text color */
+}
