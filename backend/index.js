@@ -17,10 +17,10 @@ const ivLength = 16; // For AES, the IV is always 16
 
 // MySQL connection
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "password", //password for you sql server
-  database: "users" //the schema name where your tables are stored
+  host: "Enter the host", //ex:Localhost
+  user: "Enter your user",
+  password: "Enter your password", //password for you sql server
+  database: "Enter you main schema" //the schema name where your tables are stored
 });
 
 // to check the status or if there is nay error
