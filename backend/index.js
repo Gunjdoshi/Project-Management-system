@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const jwtSecret = 'trial-key'; 
+const jwtSecret = 'enter your secret password ';//can be anything 
 // new lines
 const encryptionKey = crypto.randomBytes(32); // Use a 32-byte key for AES-256
 const ivLength = 16; // For AES, the IV is always 16
