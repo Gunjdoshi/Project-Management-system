@@ -1,4 +1,3 @@
-// src/pages/Register.js
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Auth.css";
@@ -24,7 +23,7 @@ function Register() {
         if (data.message === "User registered successfully") {
           navigate("/");
         } else {
-          setError(data.message);
+          setError(data.message); // Show error message if user exists
         }
       })
       .catch((error) => console.error("Error registering:", error));
