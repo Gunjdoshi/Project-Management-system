@@ -4,7 +4,6 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import jwt from "jsonwebtoken";
 import crypto from "crypto";
-// new line
 import bcrypt from "bcrypt";
 
 const app = express();
